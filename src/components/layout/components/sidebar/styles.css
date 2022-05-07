@@ -1,0 +1,34 @@
+
+aside {
+    min-height: 100vh;
+    width: 350px;
+    background-color: blueviolet;
+}
+.sidebar-logo {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+.sidebar-categories,
+.sidebar-timer, 
+.sidebar-attempts,
+.sidebar-reset-btn {
+    border-radius: 4px;
+}
+
+.sidebar-categories {
+    width: calc(100% - 60px);
+    margin: 0 auto 15px;
+
+}
+.sidebar-timer, 
+.sidebar-attempts {
+    width: calc(100% - 60px);
+    margin: 0 auto 15px;
+    font-weight: bolder;
+}
+.sidebar-reset-btn {
+    width: calc(100% - 60px);
+    font-weight: bolder;
+    margin-left: 30px;
+}
